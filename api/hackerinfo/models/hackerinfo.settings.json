@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "games",
+  "collectionName": "hackerinfos",
   "info": {
-    "name": "game",
+    "name": "Hackerinfo",
     "description": ""
   },
   "options": {
@@ -12,22 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "gamecode": {
+    "username": {
       "type": "string"
     },
-    "playerone": {
+    "picture": {
       "type": "string"
     },
-    "playertwo": {
-      "type": "string"
-    },
-    "userinfo": {
-      "via": "game",
-      "model": "userinfo"
-    },
-    "hackerinfo": {
-      "via": "game",
-      "model": "hackerinfo"
+    "game": {
+      "model": "game",
+      "via": "hackerinfo"
     }
   }
 }
