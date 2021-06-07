@@ -30,6 +30,9 @@
     "game": {
       "via": "userinfo",
       "model": "game"
+    },
+    "intrests": {
+      "type": "string"
     }
   }
 }
