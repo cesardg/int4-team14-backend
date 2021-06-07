@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usernotes",
+  "info": {
+    "name": "Usernote"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "note": {
+      "type": "string"
+    },
+    "userinfo": {
+      "model": "userinfo",
+      "via": "usernotes"
+    }
+  }
+}

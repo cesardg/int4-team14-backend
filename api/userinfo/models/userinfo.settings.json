@@ -33,6 +33,10 @@
     },
     "intrests": {
       "type": "string"
+    },
+    "usernotes": {
+      "via": "userinfo",
+      "collection": "usernote"
     }
   }
 }

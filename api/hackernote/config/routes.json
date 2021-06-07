@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hackernotes",
+      "handler": "hackernote.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hackernotes/count",
+      "handler": "hackernote.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hackernotes/:id",
+      "handler": "hackernote.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hackernotes",
+      "handler": "hackernote.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hackernotes/:id",
+      "handler": "hackernote.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hackernotes/:id",
+      "handler": "hackernote.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

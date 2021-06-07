@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/usernotes",
+      "handler": "usernote.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usernotes/count",
+      "handler": "usernote.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/usernotes/:id",
+      "handler": "usernote.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/usernotes",
+      "handler": "usernote.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/usernotes/:id",
+      "handler": "usernote.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/usernotes/:id",
+      "handler": "usernote.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

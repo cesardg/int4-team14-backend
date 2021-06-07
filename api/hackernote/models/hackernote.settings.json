@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hackernotes",
+  "info": {
+    "name": "Hackernote"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "note": {
+      "type": "string"
+    },
+    "hackerinfo": {
+      "model": "hackerinfo",
+      "via": "hackernotes"
+    }
+  }
+}
