@@ -28,8 +28,8 @@
       "type": "string"
     },
     "game": {
-      "model": "game",
-      "via": "userinfo"
+      "via": "userinfo",
+      "model": "game"
     }
   }
 }

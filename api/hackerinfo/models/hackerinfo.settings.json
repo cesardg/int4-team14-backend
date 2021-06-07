@@ -19,8 +19,8 @@
       "type": "string"
     },
     "game": {
-      "model": "game",
-      "via": "hackerinfo"
+      "via": "hackerinfo",
+      "model": "game"
     }
   }
 }

@@ -28,6 +28,9 @@
     "hackerinfo": {
       "via": "game",
       "model": "hackerinfo"
+    },
+    "startingPlayer": {
+      "type": "string"
     }
   }
 }
