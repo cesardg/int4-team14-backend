@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hackerinfos",
+      "handler": "hackerinfo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hackerinfos/count",
+      "handler": "hackerinfo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hackerinfos/:id",
+      "handler": "hackerinfo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hackerinfos",
+      "handler": "hackerinfo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hackerinfos/:id",
+      "handler": "hackerinfo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hackerinfos/:id",
+      "handler": "hackerinfo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

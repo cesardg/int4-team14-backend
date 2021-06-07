@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hackerinfos",
+  "info": {
+    "name": "Hackerinfo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "picture": {
+      "type": "string"
+    },
+    "game": {
+      "via": "hackerinfo",
+      "model": "game"
+    }
+  }
+}

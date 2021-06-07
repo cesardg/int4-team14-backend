@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "games",
+  "collectionName": "userinfos",
   "info": {
-    "name": "game",
+    "name": "Userinfo",
     "description": ""
   },
   "options": {
@@ -12,25 +12,24 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "gamecode": {
+    "name": {
       "type": "string"
     },
-    "playerone": {
+    "surname": {
       "type": "string"
     },
-    "playertwo": {
+    "username": {
       "type": "string"
     },
-    "userinfo": {
-      "via": "game",
-      "model": "userinfo"
-    },
-    "hackerinfo": {
-      "via": "game",
-      "model": "hackerinfo"
-    },
-    "startingPlayer": {
+    "picture": {
       "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "game": {
+      "via": "userinfo",
+      "model": "game"
     }
   }
 }
