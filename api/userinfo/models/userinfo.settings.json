@@ -12,12 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "surname": {
-      "type": "string"
-    },
     "username": {
       "type": "string"
     },
@@ -33,10 +27,6 @@
     },
     "interests": {
       "type": "string"
-    },
-    "usernotes": {
-      "via": "userinfo",
-      "collection": "usernote"
     }
   }
 }

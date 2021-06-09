@@ -21,10 +21,6 @@
     "game": {
       "via": "hackerinfo",
       "model": "game"
-    },
-    "hackernotes": {
-      "via": "hackerinfo",
-      "collection": "hackernote"
     }
   }
 }

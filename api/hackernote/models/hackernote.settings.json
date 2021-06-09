@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "hackernotes",
   "info": {
-    "name": "Hackernote"
+    "name": "Hackernote",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,8 +15,8 @@
     "note": {
       "type": "string"
     },
-    "hackerinfo": {
-      "model": "hackerinfo",
+    "game": {
+      "model": "game",
       "via": "hackernotes"
     }
   }
