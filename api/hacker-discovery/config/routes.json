@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/hacker-discoveries",
+      "handler": "hacker-discovery.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hacker-discoveries/count",
+      "handler": "hacker-discovery.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/hacker-discoveries/:id",
+      "handler": "hacker-discovery.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/hacker-discoveries",
+      "handler": "hacker-discovery.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/hacker-discoveries/:id",
+      "handler": "hacker-discovery.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/hacker-discoveries/:id",
+      "handler": "hacker-discovery.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

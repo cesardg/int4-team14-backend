@@ -39,6 +39,10 @@
     "hackernotes": {
       "via": "game",
       "collection": "hackernote"
+    },
+    "hacker_discoveries": {
+      "via": "game",
+      "collection": "hacker-discovery"
     }
   }
 }
