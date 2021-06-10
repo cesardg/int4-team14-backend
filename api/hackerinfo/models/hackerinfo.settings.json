@@ -21,6 +21,9 @@
     "game": {
       "via": "hackerinfo",
       "model": "game"
+    },
+    "obtainedInterests": {
+      "type": "string"
     }
   }
 }
