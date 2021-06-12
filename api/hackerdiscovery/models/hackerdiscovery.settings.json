@@ -1,8 +1,9 @@
 {
   "kind": "collectionType",
-  "collectionName": "hacker_discoveries",
+  "collectionName": "hackerdiscoveries",
   "info": {
-    "name": "HackerDiscovery"
+    "name": "Hackerdiscovery",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,12 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Discovery": {
+    "discovery": {
       "type": "string"
     },
     "game": {
       "model": "game",
-      "via": "hacker_discoveries"
+      "via": "hackerdiscoveries"
     }
   }
 }

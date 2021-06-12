@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/hacker-discoveries",
-      "handler": "hacker-discovery.find",
+      "path": "/hackerdiscoveries",
+      "handler": "hackerdiscovery.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/hacker-discoveries/count",
-      "handler": "hacker-discovery.count",
+      "path": "/hackerdiscoveries/count",
+      "handler": "hackerdiscovery.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/hacker-discoveries/:id",
-      "handler": "hacker-discovery.findOne",
+      "path": "/hackerdiscoveries/:id",
+      "handler": "hackerdiscovery.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/hacker-discoveries",
-      "handler": "hacker-discovery.create",
+      "path": "/hackerdiscoveries",
+      "handler": "hackerdiscovery.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/hacker-discoveries/:id",
-      "handler": "hacker-discovery.update",
+      "path": "/hackerdiscoveries/:id",
+      "handler": "hackerdiscovery.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/hacker-discoveries/:id",
-      "handler": "hacker-discovery.delete",
+      "path": "/hackerdiscoveries/:id",
+      "handler": "hackerdiscovery.delete",
       "config": {
         "policies": []
       }

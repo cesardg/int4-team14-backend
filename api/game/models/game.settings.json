@@ -40,9 +40,9 @@
       "via": "game",
       "collection": "hackernote"
     },
-    "hacker_discoveries": {
+    "hackerdiscoveries": {
       "via": "game",
-      "collection": "hacker-discovery"
+      "collection": "hackerdiscovery"
     }
   }
 }
