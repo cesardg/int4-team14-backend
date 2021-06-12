@@ -27,6 +27,9 @@
     },
     "interests": {
       "type": "string"
+    },
+    "previousField": {
+      "type": "integer"
     }
   }
 }

@@ -24,6 +24,9 @@
     },
     "obtainedInterests": {
       "type": "string"
+    },
+    "previousField": {
+      "type": "integer"
     }
   }
 }
