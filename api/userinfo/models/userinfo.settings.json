@@ -27,6 +27,10 @@
     },
     "interests": {
       "type": "string"
+    },
+    "score": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
