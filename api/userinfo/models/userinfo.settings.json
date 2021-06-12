@@ -30,6 +30,10 @@
     },
     "previousField": {
       "type": "integer"
+    },
+    "score": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
