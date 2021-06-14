@@ -27,6 +27,9 @@
     },
     "previousField": {
       "type": "integer"
+    },
+    "email": {
+      "type": "string"
     }
   }
 }
