@@ -25,7 +25,7 @@
     "obtainedInterests": {
       "type": "string"
     },
-    "previousField": {
+    "previousfield": {
       "type": "integer"
     },
     "email": {
