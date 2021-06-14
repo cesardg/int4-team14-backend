@@ -28,7 +28,7 @@
     "interests": {
       "type": "string"
     },
-    "previousField": {
+    "previousfield": {
       "type": "integer"
     },
     "score": {
