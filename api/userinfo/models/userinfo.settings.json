@@ -29,7 +29,8 @@
       "type": "string"
     },
     "previousfield": {
-      "type": "integer"
+      "type": "integer",
+      "default": 1
     },
     "score": {
       "type": "integer",
