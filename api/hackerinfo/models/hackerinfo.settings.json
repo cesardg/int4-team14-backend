@@ -23,7 +23,8 @@
       "model": "game"
     },
     "obtainedInterests": {
-      "type": "string"
+      "type": "string",
+      "default": "-"
     },
     "previousfield": {
       "type": "integer",
