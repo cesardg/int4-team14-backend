@@ -43,6 +43,9 @@
     "hackerdiscoveries": {
       "via": "game",
       "collection": "hackerdiscovery"
+    },
+    "winner": {
+      "type": "string"
     }
   }
 }

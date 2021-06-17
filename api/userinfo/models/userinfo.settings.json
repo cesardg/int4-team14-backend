@@ -38,6 +38,9 @@
     },
     "email": {
       "type": "string"
+    },
+    "lastaction": {
+      "type": "string"
     }
   }
 }

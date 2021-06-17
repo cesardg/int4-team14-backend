@@ -16,8 +16,8 @@
       "type": "string"
     },
     "game": {
-      "model": "game",
-      "via": "hackernotes"
+      "via": "hackernotes",
+      "model": "game"
     }
   }
 }

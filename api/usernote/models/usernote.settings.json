@@ -16,8 +16,8 @@
       "type": "string"
     },
     "game": {
-      "model": "game",
-      "via": "usernotes"
+      "via": "usernotes",
+      "model": "game"
     }
   }
 }
