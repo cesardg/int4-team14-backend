@@ -29,9 +29,6 @@
       "type": "integer",
       "default": 1
     },
-    "email": {
-      "type": "string"
-    },
     "latestguess": {
       "type": "string"
     }
